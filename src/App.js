@@ -1,16 +1,15 @@
 import './App.css';
 import Hello from './component/Hello';
-import Welcome from "./component/Welcome";
-import styles from "./component/App.module.css";
+
 
 function App() {
   return (
     <div className="App">
-      <Hello/>
-      <div className={styles.box}>App</div>
-      <Welcome/>
+      <h1>props:properties</h1>
+      <Hello age={10} name={"Mike"} />
+      <Hello age={20} name={"Julia"} />
+      <Hello age={30} name={"Tom"} />
     </div>
   );
 } 
-
 export default App;
