@@ -1,24 +1,31 @@
 {
   "days": [
-    {"id": 1, "day": 1},
-    {"id": 2, "day": 2},
-    {"id": 3, "day": 3}
-  ],
-  "words": [
     {
       "id": 1,
-      "day": 1,
-      "eng": "book",
-      "kor": "책",
-      "isDone": false
+      "day": 1
+    },
+    {
+      "id": 2,
+      "day": 2
     },
     {
       "id": 3,
-      "day": 2,
-      "eng": "car",
-      "kor": "자동차",
-      "isDone": false
+      "day": 3
     },
+    {
+      "day": 4,
+      "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
+    },
+    {
+      "day": 6,
+      "id": 6
+    }
+  ],
+  "words": [
     {
       "id": 3,
       "day": 2,
@@ -46,7 +53,6 @@
       "eng": "window",
       "kor": "창문",
       "isDone": false
-     
     },
     {
       "id": 8,
@@ -54,7 +60,6 @@
       "eng": "house",
       "kor": "집",
       "isDone": false
-      
     },
     {
       "id": 9,
@@ -62,7 +67,6 @@
       "eng": "mouse",
       "kor": "쥐",
       "isDone": false
-      
     },
     {
       "id": 10,
@@ -70,7 +74,6 @@
       "eng": "monkey",
       "kor": "원숭이",
       "isDone": false
-     
     },
     {
       "id": 11,
@@ -85,6 +88,48 @@
       "eng": "apple",
       "kor": "사과",
       "isDone": false
+    },
+    {
+      "day": "1",
+      "eng": "mouse",
+      "kor": "쥐",
+      "isDone": false,
+      "id": 14
+    },
+    {
+      "day": "2",
+      "eng": "bag",
+      "kor": "가방",
+      "isDone": false,
+      "id": 15
+    },
+    {
+      "day": "2",
+      "eng": "sky",
+      "kor": "하늘",
+      "isDone": false,
+      "id": 16
+    },
+    {
+      "day": "1",
+      "eng": "badge",
+      "kor": "뱃지",
+      "isDone": false,
+      "id": 17
+    },
+    {
+      "day": "4",
+      "eng": "train",
+      "kor": "기차",
+      "isDone": false,
+      "id": 18
+    },
+    {
+      "day": "6",
+      "eng": "car",
+      "kor": "차",
+      "isDone": false,
+      "id": 19
     }
   ]
 }
